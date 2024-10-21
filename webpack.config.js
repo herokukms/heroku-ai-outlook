@@ -32,7 +32,7 @@ async function getHttpsOptions() {
 export default async (env, options) => {
   const dev = options.mode === "development";
   const urlProd =
-    env.website === "GITHUB_PAGES" ? "https://sctg-development.github.io/ai-outlook/" : "https://outlook.addin.pp.ua/"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
+    env.website === "GITHUB_PAGES" ? "https://herokukms.github.io/heroku-ai-outlook/" : "https://outlook.addin.pp.ua/"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
 
   const config = {
     devtool: "source-map",
