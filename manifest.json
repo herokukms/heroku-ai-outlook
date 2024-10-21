@@ -5,7 +5,7 @@
     "version": "1.0.1",
     "name": {
         "short": "AI emailer",
-        "full": "SCTG Outlook AI Add-in"
+        "full": "Heroku Outlook AI Add-in"
     },
     "description": {
         "short": "Use AI to assist you in your email writing.",
